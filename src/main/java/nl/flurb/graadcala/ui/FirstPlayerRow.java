@@ -8,5 +8,7 @@ public class FirstPlayerRow extends Row {
     public FirstPlayerRow() {
         addBigPit();
         addSmallPits();
+
+        setVerticalAlignmentSmallPits(Alignment.START);
     }
 }
