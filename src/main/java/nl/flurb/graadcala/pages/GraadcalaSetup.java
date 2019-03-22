@@ -40,17 +40,17 @@ public class GraadcalaSetup extends VerticalLayout implements BeforeLeaveObserve
         }
     }
 
-    private void initializePlayerNameTextfield() {
-        playerName = new TextField("Player name");
-
-        add(playerName);
-    }
-
     private void initializeSmallPitsComboBox() {
         numberOfSmallPits = new ComboBox<>("Number of small pits");
         numberOfSmallPits.setItems(4, 5, 6);
 
         add(numberOfSmallPits);
+    }
+
+    private void initializePlayerNameTextfield() {
+        playerName = new TextField("Player name");
+
+        add(playerName);
     }
 
     private void initializeStartGameButton() {
