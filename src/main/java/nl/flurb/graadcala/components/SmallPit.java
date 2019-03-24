@@ -1,14 +1,14 @@
 /*
  * 2019 Flurb
  */
-package nl.flurb.graadcala.ui.components;
+package nl.flurb.graadcala.components;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 
-public class SmallPit extends Button {
+class SmallPit extends Button {
 
-    public SmallPit() {
+    SmallPit() {
         addThemeVariants(ButtonVariant.LUMO_PRIMARY);
     }
 }

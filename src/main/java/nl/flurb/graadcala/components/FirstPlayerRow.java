@@ -1,7 +1,7 @@
 /*
  * 2019 Flurb
  */
-package nl.flurb.graadcala.ui;
+package nl.flurb.graadcala.components;
 
 import com.vaadin.flow.spring.annotation.SpringComponent;
 
@@ -9,9 +9,6 @@ import com.vaadin.flow.spring.annotation.SpringComponent;
 public class FirstPlayerRow extends Row {
 
     public FirstPlayerRow() {
-        addBigPit();
-        addSmallPits();
-
         setVerticalAlignmentSmallPits(Alignment.START);
     }
 }
