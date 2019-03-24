@@ -1,4 +1,7 @@
-package nl.flurb.graadcala.db;
+/*
+ * 2019 Flurb
+ */
+package nl.flurb.graadcala.database;
 
 import com.vaadin.flow.spring.annotation.SpringComponent;
 import org.springframework.data.jpa.repository.JpaRepository;

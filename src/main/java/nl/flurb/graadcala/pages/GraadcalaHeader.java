@@ -1,19 +1,22 @@
+/*
+ * 2019 Flurb
+ */
 package nl.flurb.graadcala.pages;
 
 import com.vaadin.flow.component.html.H1;
-import com.vaadin.flow.component.html.H5;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
-import com.vaadin.flow.router.ParentLayout;
 import com.vaadin.flow.router.RouterLayout;
+import nl.flurb.graadcala.I18nLoader;
 
-@ParentLayout(MainLayout.class)
 public class GraadcalaHeader extends VerticalLayout implements RouterLayout {
 
     public GraadcalaHeader() {
-        setDefaultHorizontalComponentAlignment(Alignment.CENTER);
-        setWidthFull();
+        LayoutUtils.initializeDefaultVerticalLayout(this);
 
-        add(new H1("Mancala"));
-        add(new H5("Just play the game"));
+        addHeader();
+    }
+
+    private void addHeader() {
+        add(new H1(I18nLoader.getGameTitle()));
     }
 }

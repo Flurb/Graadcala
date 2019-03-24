@@ -1,3 +1,6 @@
+/*
+ * 2019 Flurb
+ */
 package nl.flurb.graadcala;
 
 import org.springframework.boot.SpringApplication;

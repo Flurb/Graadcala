@@ -1,3 +1,6 @@
+/*
+ * 2019 Flurb
+ */
 package nl.flurb.graadcala.ui.components;
 
 import com.vaadin.flow.component.button.Button;

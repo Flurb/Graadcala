@@ -1,3 +1,6 @@
+/*
+ * 2019 Flurb
+ */
 package nl.flurb.graadcala.ui;
 
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
